@@ -1,0 +1,89 @@
+*{  
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    color: #707070;
+    font-family: "helvetica neue",Arial,sans-serif;
+}
+a {
+    color: #707070;
+    text-decoration:none ;
+}
+
+ .wrapper {
+    max-width: 700px;
+    margin: 40px auto;
+
+}
+
+ .profil {
+    display: flex;
+    margin-bottom: 24px;
+
+}
+ header .profil img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+    object-fit: cover;
+}
+
+header .profil .details {
+    margin-left: 15px;
+}
+ header .profil h1 {
+    font-size: 4em;
+    font-weight: lighter;
+ }
+ header .profil .details .role {
+    background-color: #4598f4;
+    color: #fff;
+    padding: 7px 10px;
+    border-radius: 10px;
+    margin-left: 55px;
+}
+ header .bio p {
+    margin-bottom: 50px;
+ }
+ header .info .contact {
+    display: flex;
+    justify-content: space-between;
+
+ }
+ header .info a {
+    color: #4598f4;
+    text-decoration: underline;
+    margin: 20px;
+    margin-right:5px;
+    margin-left: 3px;
+
+ }
+ header {
+    margin-bottom: 24px;
+ }
+
+ section .skills {
+    display: flex;
+    justify-content: space-between;
+    margin-top:25px ;
+    flex-wrap: wrap;
+ }
+ section .skills-item {
+    border: 3px solid #707070;
+    border-radius: 8px;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    width: 45%;
+    margin-bottom: 5px;
+ }
+ .skills .skills-item:hover,
+ .langs .lang-item:hover {
+    background-color: #75b0f9;
+    border: none;
+    color: #fff;
+ }
+
+
