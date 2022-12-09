@@ -34,8 +34,8 @@ header .profil .details {
     margin-left: 15px;
 }
  header .profil h1 {
-    font-size: 4em;
-    font-weight: lighter;
+    font-size: 3em;
+    font-weight: bolder;
  }
  header .profil .details .role {
     background-color: #4598f4;
@@ -67,7 +67,7 @@ header .profil .details {
  section .skills {
     display: flex;
     justify-content: space-between;
-    margin-top:25px ;
+    margin-top:20px ;
     flex-wrap: wrap;
  }
  section .skills-item {
@@ -76,14 +76,123 @@ header .profil .details {
     padding: 12px;
     display: flex;
     align-items: center;
-    width: 45%;
-    margin-bottom: 5px;
- }
+    width: 47%;
+    margin-bottom: 10px;
+    font-size: medium;
+
+  }
+
  .skills .skills-item:hover,
  .langs .lang-item:hover {
     background-color: #75b0f9;
     border: none;
     color: #fff;
  }
+   
+   .langs {
+      display: flex;
+      margin-top: 20px;
+   }
+   .langs .lang-item {
+      border: 1px solid #707070;
+      display: flex;
+      align-items: center;
+      margin-right: 10px;
+      padding: 7px;
+      border-radius: 7px;
+   }
+   .langs .lang-item img {
+      width: 40px;
+      height: 28px;
+      margin-right: 12px;
+   }
+      .exp {
+         display: flex;
+         justify-content:space-around;
+         margin-top:25px;
+       }
+      .exp .exp-item {
+         width: 25%;
+         padding-right: 10px;
+      }
 
+      .exp .exp-item .timeline .line {
+         display: flex;
+         align-items: center;
+      }
+      .exp .exp-item .timeline .line {
+         width: 100%;
+         margin-left: 7px;
+         border: none;
+         height: 2px;
+         background-color: #707070;
+      }
+      .exp .exp-item .boule {
+         background-color: #707070;
+         width: 12px;
+         height: 12px;
+         border-radius: 50%;
+         display: block;
 
+      }
+      .exp .exp-item .timeline:hover .line,
+      .exp .exp-item .timeline:hover .boule {
+         background-color: green;
+      }
+      .exp .exp-item p {
+         margin-top: 15px;
+      }
+      
+    .form-control .feedback {
+      color: red;
+      display: flex;
+      
+    } 
+    .form-control .A {
+      font-size:20PX;
+      height: 340PX;
+      border-radius: 5%;
+   margin-right: 50PX;
+
+      
+
+    }
+    
+    section .form-group  {
+
+      font-size: 15px;
+      justify-content: space-between;
+      max-width: 20px;
+      display: flex;
+      padding: 3px;
+
+      
+    }
+    section .form-container {
+      font-size: 15px;
+    }
+   
+  section .radio { 
+   padding-left:15PX;
+   margin-left: 45PX;
+   display: flex;
+   justify-content: space-between;
+      
+   }
+   footer   {
+      text-align: center;
+      margin-right:2%;
+      padding: 2PX;
+   
+   }
+   .control  .b, .c, .d  {
+      font-size: 20px;
+      margin-top: 2PX;
+      border-radius: 5%;
+   
+   }
+   
+   
+    
+   
+    
